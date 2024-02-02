@@ -1,0 +1,39 @@
+/* Write your code here. */
+/* Write your code here. */
+.container {
+  display: flex;
+  justify-content: center;
+}
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  max-width: 1120px;
+  background-color: #ffffff;
+}
+.image {
+  width: 500px;
+}
+@media screen and (max-width: 768px) {
+  .image {
+    width: 300px;
+  }
+}
+.heading {
+  color: #1e293b;
+  font-size: 28px;
+  font-family: 'Roboto';
+}
+.photographer {
+  color: #64748b;
+  font-size: 17px;
+  font-family: 'Roboto';
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
